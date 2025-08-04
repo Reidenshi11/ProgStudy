@@ -1,2 +1,22 @@
-/* 12345 */
-/* 56679 */
+
+.area__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  height: 100%;
+}
+
+.lessons {
+    border-top: dashed black;
+    /* border-bottom: dashed black; */
+}
+
+
+.lessons:last-child {
+    border-bottom: dashed black;
+}
+
+.lessons p:hover {
+    text-decoration: underline;
+}
