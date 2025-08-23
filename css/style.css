@@ -2,6 +2,8 @@
 
 @import url("./buttons.css");
 @import url("./fonts.css");
+@import url("./light_theme.css");
+/* @import url("./dark_theme.css"); */
 
 
 
@@ -15,7 +17,7 @@
 
 p {
     border: 2px solid var(--color-primary);
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
 }
 
 div {
@@ -26,7 +28,6 @@ div {
 }
 
 
-
 body {
     font-size: 20px;
     font-weight: normal;
@@ -34,17 +35,6 @@ body {
     max-width: 100%;
     max-height: 100%;
     height: 100vh;
-}
-
-/* main {
-    position: relative;
-} */
-
-
-.body__area {
-    /* background: linear-gradient(white, rgba(0, 0, 252, 0.733), rgba(238, 36, 36, 0.774)); */
-    background: linear-gradient(rgb(168, 164, 136), rgba(119, 159, 177, 0.733), rgba(124, 152, 189, 0.774));
-    background-repeat: space;
 }
 
 .area__column {
@@ -110,7 +100,7 @@ body {
     font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 .text__style {
@@ -118,7 +108,7 @@ body {
     font-family: "Mountains of Christmas", serif;
     font-weight: 700;
     font-style: normal;
-    color: aliceblue;
+    /* color: aliceblue; */
     /* visibility: hidden; */
 }
 
